@@ -10,7 +10,8 @@ using R5T.T0180;
 namespace R5T.S0089
 {
     [FunctionalityMarker]
-    public partial interface IConsoleOperator : IFunctionalityMarker
+    public partial interface IConsoleOperator : IFunctionalityMarker,
+        L0055.IConsoleOperator
     {
         public void Display_FilePaths(IEnumerable<IFilePath> filePaths)
         {

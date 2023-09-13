@@ -23,7 +23,7 @@ namespace R5T.S0089
 
 
             /// Run.
-            var assemblyName = Instances.AssemblyOperator.Get_AssemblyName(assemblyFilePath);
+            var assemblyName = Instances.AssemblyNameOperator.Get_AssemblyName(assemblyFilePath);
 
             Console.WriteLine(assemblyName);
             Console.WriteLine($"{assemblyName.FullName}: full-name");

@@ -7,10 +7,10 @@ namespace R5T.S0089
         L0055.Instances
     {
         public static L0057.IAssemblyOperator AssemblyOperator => L0057.AssemblyOperator.Instance;
+        public static L0056.IAssemblyNameOperator AssemblyNameOperator => L0056.AssemblyNameOperator.Instance;
         public static L0057.ICommandLineArgumentsOperator CommandLineArgumentsOperator => L0057.CommandLineArgumentsOperator.Instance;
-        public static IConsoleOperator ConsoleOperator => S0089.ConsoleOperator.Instance;
+        public static new IConsoleOperator ConsoleOperator => S0089.ConsoleOperator.Instance;
         public static F0124.N000.IEnvironmentOperator EnvironmentOperator_F0124_N000 => F0124.N000.EnvironmentOperator.Instance;
-        public static L0057.IExecutablePathOperator ExecutablePathOperator => L0057.ExecutablePathOperator.Instance;
         public static L0057.IFileExtensions FileExtensions => L0057.FileExtensions.Instance;
         public static F0124.IFileOperator FileOperator => F0124.FileOperator.Instance;
         public static L0057.IFileSystemOperator FileSystemOperator => L0057.FileSystemOperator.Instance;
