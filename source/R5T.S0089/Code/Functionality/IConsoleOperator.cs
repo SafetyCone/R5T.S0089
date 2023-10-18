@@ -24,7 +24,7 @@ namespace R5T.S0089
                 .OrderAlphabetically()
                 .Now();
 
-            if(orderedPaths.IsEmpty())
+            if(orderedPaths.Is_Empty())
             {
                 Console.WriteLine("<No file paths>");
 

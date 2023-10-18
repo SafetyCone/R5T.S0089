@@ -12,7 +12,7 @@ namespace R5T.S0089
         public static new IConsoleOperator ConsoleOperator => S0089.ConsoleOperator.Instance;
         public static F0124.N000.IEnvironmentOperator EnvironmentOperator_F0124_N000 => F0124.N000.EnvironmentOperator.Instance;
         public static L0057.IFileExtensions FileExtensions => L0057.FileExtensions.Instance;
-        public static F0124.IFileOperator FileOperator => F0124.FileOperator.Instance;
+        public static new F0124.IFileOperator FileOperator => F0124.FileOperator.Instance;
         public static L0057.IFileSystemOperator FileSystemOperator => L0057.FileSystemOperator.Instance;
         public static L0053.IFlagsOperator FlagsOperator => L0053.FlagsOperator.Instance;
         public static Z0061.IFlags Flags => Z0061.Flags.Instance;

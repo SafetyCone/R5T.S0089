@@ -18,7 +18,7 @@ namespace R5T.S0089
 
 
             /// Run.
-            var lastCharacter = Instances.StringOperator._Platform.Get_LastCharacter(@string);
+            var lastCharacter = Instances.StringOperator.Get_LastCharacter(@string);
 
             Console.WriteLine($"{lastCharacter}, last character of:\n\t{@string}");
         }
