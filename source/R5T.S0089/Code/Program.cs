@@ -34,9 +34,10 @@ namespace R5T.S0089
 
             //StringDemonstrations.Instance.Get_LastCharacter();
 
+            SwitchDemonstrations.Instance.SwitchOnTypeOfNullInstanceOfBaseType();
 
             /// Experiments.
-            AssemblyExperiments.Instance.Try_MetadataReader();
+            //AssemblyExperiments.Instance.Try_MetadataReader();
             //AssemblyExperiments.Instance.Get_AssemblyName();
         }
     }

@@ -16,6 +16,7 @@ namespace R5T.S0089
         public static L0057.IFileSystemOperator FileSystemOperator => L0057.FileSystemOperator.Instance;
         public static L0053.IFlagsOperator FlagsOperator => L0053.FlagsOperator.Instance;
         public static Z0061.IFlags Flags => Z0061.Flags.Instance;
+        public static L0053.INullOperator NullOperator => L0053.NullOperator.Instance;
         public static IOperations Operations => S0089.Operations.Instance;
         public static L0057.ISearchPatternGenerator SearchPatternGenerator => L0057.SearchPatternGenerator.Instance;
         public static L0053.ISearchPatterns SearchPatterns => L0053.SearchPatterns.Instance;
