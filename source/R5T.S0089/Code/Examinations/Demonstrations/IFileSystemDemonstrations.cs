@@ -14,7 +14,7 @@ namespace R5T.S0089
         {
             var executableDirectoryPath = Instances.ExecutablePathOperator.Get_ExecutableDirectoryPath();
 
-            var assemblyFilePaths = Instances.FileSystemOperator.Get_DllFiles(executableDirectoryPath);
+            var assemblyFilePaths = Instances.FileSystemOperator.Get_DllFilePaths(executableDirectoryPath);
 
             Console.WriteLine($"{assemblyFilePaths.Length}: count");
 

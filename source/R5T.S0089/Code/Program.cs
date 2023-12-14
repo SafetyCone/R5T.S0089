@@ -29,16 +29,29 @@ namespace R5T.S0089
 
             //FlagDemonstrations.Instance.Has_Flag();
 
+            //HashCodeDemonstrations.Instance.Get_HashCode_ForNull();
+
             //PathDemonstrations.Instance.Get_FileName();
             //PathDemonstrations.Instance.Get_ParentDirectoryPath_ForFile();
 
             //StringDemonstrations.Instance.Get_LastCharacter();
 
-            SwitchDemonstrations.Instance.SwitchOnTypeOfNullInstanceOfBaseType();
+            //SwitchDemonstrations.Instance.SwitchOnTypeOfNullInstanceOfBaseType();
 
             /// Experiments.
             //AssemblyExperiments.Instance.Try_MetadataReader();
             //AssemblyExperiments.Instance.Get_AssemblyName();
+
+            //HashCodeExperiments.Instance.HashCode_CombineNull();
+            //HashCodeExperiments.Instance.HashCode_CombineNull_MultipleTries();
+            //HashCodeExperiments.Instance.HashCode_CombineNull_DifferentTypeParameters();
+            //HashCodeExperiments.Instance.HashCode_CombineNull_DifferentTypes();
+            //HashCodeExperiments.Instance.HashCode_OfInitializedHashCode();
+            //HashCodeExperiments.Instance.HashCode_OfMultipleInitializedHashCode();
+            //HashCodeExperiments.Instance.HashCode_OfInteger();
+            //HashCodeExperiments.Instance.HashCode_Combine_OfInteger();
+
+            LinqExperiments.Instance.Select_OnNull();
         }
     }
 }
