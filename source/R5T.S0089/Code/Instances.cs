@@ -10,6 +10,7 @@ namespace R5T.S0089
         public static L0056.IAssemblyNameOperator AssemblyNameOperator => L0056.AssemblyNameOperator.Instance;
         public static L0057.ICommandLineArgumentsOperator CommandLineArgumentsOperator => L0057.CommandLineArgumentsOperator.Instance;
         public static new IConsoleOperator ConsoleOperator => S0089.ConsoleOperator.Instance;
+        public static F0000.IEnvironmentOperator EnvironmentOperator => F0000.EnvironmentOperator.Instance;
         public static F0124.N000.IEnvironmentOperator EnvironmentOperator_F0124_N000 => F0124.N000.EnvironmentOperator.Instance;
         public static L0057.IFileExtensions FileExtensions => L0057.FileExtensions.Instance;
         public static new F0124.IFileOperator FileOperator => F0124.FileOperator.Instance;
@@ -20,6 +21,7 @@ namespace R5T.S0089
         public static L0057.ISearchPatternGenerator SearchPatternGenerator => L0057.SearchPatternGenerator.Instance;
         public static L0053.ISearchPatterns SearchPatterns => L0053.SearchPatterns.Instance;
         public static L0057.IStringOperator StringOperator => L0057.StringOperator.Instance;
+        public static new IStrings Strings => S0089.Strings.Instance;
         public static Z0061.ITextValues TextValues => Z0061.TextValues.Instance;
     }
 }

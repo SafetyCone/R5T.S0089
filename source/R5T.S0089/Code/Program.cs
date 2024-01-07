@@ -9,6 +9,7 @@ namespace R5T.S0089
         {
             /// Demonstrations.
             //Demonstrations.Instance.Display_EnvironmentVariables();
+            Demonstrations.Instance.Display_Environment();
 
             //CommandLineDemonstrations.Instance.Get_CommandLineArguments();
 
@@ -39,6 +40,9 @@ namespace R5T.S0089
             //SwitchDemonstrations.Instance.SwitchOnTypeOfNullInstanceOfBaseType();
 
             /// Experiments.
+            //Experiments.Instance.IndexOfEmptyStringInEmptyString();
+            //Experiments.Instance.IndexOfEmptyStringInString();
+
             //AssemblyExperiments.Instance.Try_MetadataReader();
             //AssemblyExperiments.Instance.Get_AssemblyName();
 
@@ -51,7 +55,7 @@ namespace R5T.S0089
             //HashCodeExperiments.Instance.HashCode_OfInteger();
             //HashCodeExperiments.Instance.HashCode_Combine_OfInteger();
 
-            LinqExperiments.Instance.Select_OnNull();
+            //LinqExperiments.Instance.Select_OnNull();
         }
     }
 }
