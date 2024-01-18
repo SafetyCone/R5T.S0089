@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 
 using R5T.T0141;
 
@@ -8,6 +9,25 @@ namespace R5T.S0089
     [ExperimentsMarker]
     public partial interface IExperiments : IExperimentsMarker
     {
+        /// <summary>
+        /// What is the default value of <see cref="Task"/>?
+        /// <para>
+        /// Result: null, as kinda expected for a reference type.
+        /// </para>
+        /// </summary>
+        public void WhatIsTheDefaultOfTask()
+        {
+            Task task = default;
+
+            // False.
+            var isCompleted = task == Task.CompletedTask;
+
+            // True.
+            var isNull = task == null;
+
+            Console.WriteLine(task);
+        }
+
         /// <summary>
         /// What is the index of the empty string, in the empty string?
         /// <para>

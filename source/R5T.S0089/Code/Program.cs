@@ -9,7 +9,7 @@ namespace R5T.S0089
         {
             /// Demonstrations.
             //Demonstrations.Instance.Display_EnvironmentVariables();
-            Demonstrations.Instance.Display_Environment();
+            //Demonstrations.Instance.Display_Environment();
 
             //CommandLineDemonstrations.Instance.Get_CommandLineArguments();
 
@@ -42,6 +42,7 @@ namespace R5T.S0089
             /// Experiments.
             //Experiments.Instance.IndexOfEmptyStringInEmptyString();
             //Experiments.Instance.IndexOfEmptyStringInString();
+            Experiments.Instance.WhatIsTheDefaultOfTask();
 
             //AssemblyExperiments.Instance.Try_MetadataReader();
             //AssemblyExperiments.Instance.Get_AssemblyName();
